@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: black;
+  width: 100%;
+}
+.header .header-top {
+  width: 60%;
+  margin: auto;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header .header-top .info-header {
+  height: 30px;
+}
+.header .header-top .info-header span {
+  color: grey;
+}
+.header .header-top .info-header i {
+  color: cyan;
+  padding: 8px;
+}
+.header .header-top .info-header select {
+  margin-left: 10px;
+}
+.header .header-down {
+  width: 60%;
+  margin: auto;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.header .header-down .logo {
+  height: 70px;
+  width: 70px;
+  background-image: url("img/logo_painter.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.header .header-down span {
+  color: white;
+}
+.header .header-down span:hover {
+  background-color: white;
+  color: black;
+}
+.header .header-down span i {
+  margin-left: 5px;
+}
+
+.jumbo {
+  min-height: 500px;
+  background-image: url("img/bg-painter-home.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.jumbo .cta {
+  padding-top: 50px;
+  height: 80%;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.jumbo .cta .logo-cta {
+  height: 100px;
+  width: 250px;
+  background-image: url("img/painter-2021-wm-black.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.jumbo .cta .slogan-cta p {
+  font-size: 1.3rem;
+  padding-bottom: 50px;
+}
+.jumbo .cta .offer-cta {
+  padding-bottom: 50px;
+}
+.jumbo .cta .offer-cta h3 {
+  color: purple;
+  padding-bottom: 10px;
+}
+.jumbo .cta .offer-cta span {
+  color: purple;
+}
+.jumbo .cta .buttons-cta {
+  display: flex;
+}
+.jumbo .cta .buttons-cta .learn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
+.jumbo .cta .buttons-cta .download {
+  border: 2px solid black;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+}
+
+.main {
+  background-color: #e8e8e8;
+  width: 100%;
+}
+.main .title-main {
+  text-align: center;
+  font-size: 2rem;
+  padding: 40px;
+}
+.main .card-container {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.main .card-container .card {
+  width: calc(100%/3.15);
+}
+.main .card-container .card .card-image img {
+  width: 100%;
+  height: 100%;
+}
+.main .card-container .card .card-title {
+  background-color: white;
+  padding: 20px;
+}
+.main .card-container .card .card-title span {
+  color: cyan;
+  padding-right: 4px;
+}
+.main .card-container .card .card-p {
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.main .card-container .card .card-learn {
+  background-color: white;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  color: cyan;
+}
+.main .puzzle {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main .puzzle .piece {
+  flex-basis: 50%;
+  height: 300px;
+  border: 1px solid black;
+}
+.main .puzzle .piece img {
+  height: 90%;
+  width: 80%;
+}
+.main .puzzle .piece h1 {
+  color: white;
+  padding: 30px;
+}
+.main .puzzle .piece p {
+  color: white;
+  font-size: 1.2rem;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.main .puzzle .background {
+  background-image: url("img/wacom-painter.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.main .puzzle .background2 {
+  background-image: url("img/painter-master.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.main .puzzle .background3 {
+  background-image: url("img/business-education.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.main .puzzle .purple {
+  background-color: purple;
+}
+.main .puzzle .grey {
+  background-color: grey;
+}
+.main .puzzle .blue {
+  background-color: blue;
+}
+.main .puzzle .puzzle-learn {
+  background-color: white;
+  padding: 10px 20px;
+  color: black;
+  width: 150px;
+  margin-left: 30px;
+}
+
+.footer {
+  width: 100%;
+  background-color: white;
+}
+.footer .pre-footer {
+  padding-top: 50px;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .pre-footer span {
+  font-weight: bold;
+  padding-left: 5px;
+}
+.footer .pre-footer li {
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 5px;
+}
+.footer .icons-space {
+  width: 60%;
+  margin: auto;
+  display: flex;
+}
+.footer .icons-space .space {
+  display: flex;
+  flex-grow: 2;
+}
+.footer .icons-space .icons {
+  padding: 30px;
+}
+.footer .icons-space .icons .colorfb {
+  color: blue;
+}
+.footer .icons-space .icons .colortw {
+  color: cyan;
+}
+.footer .icons-space .icons .coloryt {
+  color: red;
+}
+.footer .icons-space .icons .colorpt {
+  color: darkred;
+}
+.footer .icons-space .icons .colorwf {
+  color: orange;
+}
+.footer .icons-space .icons i {
+  font-size: 40px;
+  padding: 5px;
+}
+.footer .final-foo {
+  width: 100%;
+  background-color: black;
+  height: 100px;
+  display: flex;
+}
+.footer .final-foo .final {
+  width: 60%;
+  margin: auto;
+  display: flex;
+}
+.footer .final-foo .final .finalsx {
+  width: 50%;
+}
+.footer .final-foo .final .finalsx img {
+  height: 90%;
+  padding: 10px;
+}
+.footer .final-foo .final .finaldx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.footer .final-foo .final .finaldx span {
+  color: grey;
+  padding: 10px;
+  font-size: 0.8rem;
+}
+.footer .final-foo .final .finaldx .finalp {
+  color: white;
+}
